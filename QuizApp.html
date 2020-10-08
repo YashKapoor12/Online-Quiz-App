@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quiz-App</title>
+<link rel="stylesheet" href="styl.css">
+
+</head>
+<body>
+   <div class="container">
+    <div id="start-btn" onclick="unhide1()"><button>START</button></div>
+    <div id="results-btn" class="hide" onclick="alert('Your score is : '+score)"><button>Show Results</button></div>
+       <div class="hide" id="qtnf">
+           <div  id="qtn" ><h3 >Q1.What is 3+5?</h3></div>
+           <div class="option11" onclick="wrongAnswer1()" >9</div>
+           <div class="option12" onclick="rightAnswer1()">8</div>
+           <div class="option13" onclick="wrongAnswer1()">3</div>
+           <div class="option14" onclick="wrongAnswer1()">5</div>
+       </div>
+       <div class="hide" id="qtnf2">
+           <div  id="qtn" ><h3 >Q2.What is 3*5?</h3></div>
+           <div class="option21" onclick="wrongAnswer2()">13</div>
+           <div class="option22" onclick="wrongAnswer2()">12</div>
+           <div class="option23" onclick="wrongAnswer2()">7</div>
+           <div class="option24" onclick="rightAnswer2()">15</div>
+       </div>
+       <div class="hide" id="qtnf3">
+           <div  id="qtn" ><h3 >Q3.What is the color of q?<h3></div>
+           <div class="option31" onclick="rightAnswer3()">Cyan</div>
+           <div class="option32" onclick="wrongAnswer3()">Yellow</div>
+           <div class="option33" onclick="wrongAnswer3()">Blue</div>
+           <div class="option34" onclick="wrongAnswer3()">kuch bhi</div>
+       </div>
+   </div>
+</body>
+<script src="quizScr.js"></script>
+</html>
