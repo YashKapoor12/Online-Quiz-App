@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Results</title>
+	<script src="https://kit.fontawesome.com/935f6155eb.js" crossorigin="anonymous"></script>
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background-color: yellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	h2,p{
+		color: rgba(10,10,100,100);
+		margin-bottom:6px;
+		padding:3px;
+	}
+	h2{
+		margin-left: 50px;
+		font-weight: 10rem;
+		padding-top: 300px
+	}
+	p{
+		font-size: 20px
+	}
+	p.score{
+		margin-left: 50px;
+	}
+	p.timerr{
+		margin-right:50px;
+	}
+
+	i{
+		margin-top: 60px;
+		font-size: 280px;
+		margin-bottom: 0px
+	}
+	.container{
+		position: absolute;
+		top: 10%;
+	}
+</style>
+
+<body >
+	<div>
+		<i class="fas  fa-trophy"></i>
+		<div class="container">
+			<h2>Well done <span class="name"></span></h2>
+			<p class="score">You've earned <span class="scoree"></span> points.</p>
+			<p class="timerr"><span class="timer_show"></span></p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="info.js"></script>
+<script type="text/javascript" src="timer.js"></script>
+</html>
